@@ -27,6 +27,7 @@
 		3F44C74B1E90506000D66F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F44C74D1E90506000D66F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F44C7541E90514F00D66F67 /* Frameworks.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Frameworks.xcconfig; sourceTree = "<group>"; };
+		3F44C76A1E9056BD00D66F67 /* Libraries.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Libraries.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				3F44C74D1E90506000D66F67 /* Info.plist */,
 				3F44C73C1E90506000D66F67 /* Supporting Files */,
 				3F44C7541E90514F00D66F67 /* Frameworks.xcconfig */,
+				3F44C76A1E9056BD00D66F67 /* Libraries.xcconfig */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -112,6 +114,7 @@
 				TargetAttributes = {
 					3F44C7381E90506000D66F67 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7A5BJMR95M;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -182,6 +185,7 @@
 /* Begin XCBuildConfiguration section */
 		3F44C74E1E90506000D66F67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44C76A1E9056BD00D66F67 /* Libraries.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -231,6 +235,7 @@
 		};
 		3F44C74F1E90506000D66F67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F44C76A1E9056BD00D66F67 /* Libraries.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -277,6 +282,7 @@
 			baseConfigurationReference = 3F44C7541E90514F00D66F67 /* Frameworks.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A5BJMR95M;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
@@ -289,6 +295,7 @@
 			baseConfigurationReference = 3F44C7541E90514F00D66F67 /* Frameworks.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7A5BJMR95M;
 				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ruenzuo.Sample;
@@ -315,6 +322,7 @@
 				3F44C7521E90506000D66F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

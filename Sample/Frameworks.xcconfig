@@ -6,5 +6,5 @@
 //  Copyright © 2017 Renzo Crisóstomo. All rights reserved.
 //
 
-OTHER_LDFLAGS = -framework GoogleMobileAds
+OTHER_LDFLAGS = $(inherited) -framework GoogleMobileAds
 FRAMEWORK_SEARCH_PATHS = $(SOURCE_ROOT)/Frameworks

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 @import GoogleMobileAds;
+#import "Baka.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     [GADMobileAds configureWithApplicationID:@""];
+    [[Baka alloc] init];
 }
 
 
